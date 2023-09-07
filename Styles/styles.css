@@ -1,0 +1,74 @@
+/*BASE STYLES ================================*/
+
+*,
+*:after,
+*:before {
+    box-sizing:border-box;
+}
+
+html {
+    background-color: rgb(125,125,100);
+    color: rgb(255,255,255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,{ 
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*
+    Outline: white 1px dotted}*/
+
+main {
+    
+    width: 60%;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: rgb(85,85,70);
+    border-radius: 3em;
+    
+}
+
+.example {
+    background-color: rgb(70,70,55);
+    padding: 1em;
+    border-radius: 3em;
+}
+
+/*button Styles*/
+.btn {
+    padding: 1em;
+    border-radius: .5em;
+    border: .25em solid rgb(0,0,0);
+    font-weight: bold;
+}
+
+.btn-primary {
+    color: rgb(255,255,255);
+    background-color: rgb(90,140,140);
+    border-color: rgb(0,50,0)
+}
+
+.btn-secondary{
+    color: rgb(255,255,255);
+    background-color: rgb(140,90,140);
+    border-color: rgb(0,0,50)
+}
+
+.btn-tertiary{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+    border-color: rgb(0,0,0);
+}
+
+.btn-ghost {
+    color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0);
+    border-color: rgb(255,255,255)
+}
+
